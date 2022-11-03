@@ -4,7 +4,7 @@ const enter = document.querySelector("#enter")
 const enterPlace = document.querySelector("#enterPlace")
 const showPass = document.querySelector("#showPass")
 const notific = document.querySelector("#notific")
-const button = document.querySelector("#button")
+const button = document.querySelector("#button") // у тебя нет элемента с id="button"
 
 button.addEventListener(('click'), () => {
     console.log('hi')
